@@ -1,3 +1,4 @@
+import Foundation
 import Logging
 
 /// A log handler wrapper that sanitizes metadata before forwarding log events.

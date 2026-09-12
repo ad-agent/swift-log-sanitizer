@@ -1,3 +1,4 @@
+import Foundation
 /// Configuration for the log sanitizer.
 public struct SanitizeConfig: Sendable {
     public let sensitiveKeys: Set<String>
