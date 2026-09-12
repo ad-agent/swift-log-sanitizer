@@ -1,0 +1,1 @@
+/// Depth limiter for recursive sanitization to prevent stack overflow.\npublic struct DepthLimiter: Sendable {\n    public let maxDepth: Int\n    public init(maxDepth: Int = 10) { self.maxDepth = maxDepth }\n    public func isWithinLimit(_ current: Int) -> Bool { current < maxDepth }\n}
